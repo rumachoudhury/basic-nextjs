@@ -1,4 +1,5 @@
 import AllTodos from "@/components/AllTodos";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 function HomePage() {
@@ -12,6 +13,9 @@ function HomePage() {
           height={500}
           className="flex justify-center items-center mx-auto"
         />
+      </div>
+      <div className="flex items-center justify-center ">
+        <Button className="text-white text-center bg-blue-500">Click me</Button>
       </div>
 
       <AllTodos />
